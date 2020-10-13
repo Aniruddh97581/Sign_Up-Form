@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Contact us form validation Using Javascript</title>
-    <link rel="stylesheet" href="sign_up.css">
-    <script src="index.js"></script>
+	<meta charset="UTF-8">
+	<title>Contact us form validation Using Javascript</title>
+	<link rel="stylesheet" href="sign_up.css">
+	<script src="index.js"></script>
 </head>
-
 <body>
 
-    <div class="wrapper">
-        <h2>Contact us</h2>
-        <div id="error_message"></div>
-        <form id="myform" onsubmit="return validate();">
-            <div class="input_field">
-                <input type="text" placeholder="Enter First Name" id="first_name">
-            </div>
-            <div class="input_field">
-                <input type="text" placeholder="Enter Last Name" id="last_name">
-            </div>
-            <div class="input_field">
-                <input type="email" placeholder="Enter Your Email" id="email">
-            </div>
-            <div class="input_field">
-                <input type="date" placeholder="Enter DateOfBirth" id="dob">
-            </div>
-            <div class="input_field">
-                <input type="text" placeholder="Phone" id="phone">
-            </div>
-            <div class="input_field">
-                <input type="password" placeholder="Enter Your Password" id="password">
-            </div>
-            <div class="btn">
-                <input type="submit">
-            </div>
-        </form>
+<div class="wrapper">
+  <h2>Contact us</h2>
+  <div id="error_message"></div>
+  <form id="myform" onsubmit="return validate();">
+    <div class="input_field">
+        <input type="text" placeholder="Enter First Name" id="first_name">
     </div>
+    <div class="input_field">
+        <input type="text" placeholder="Enter Last Name" id="last_name">
+    </div>
+    <div class="input_field">
+        <input type="email" placeholder="Enter Your Email" id="email">
+    </div>
+    <div class="input_field">
+        <input type="date" placeholder="Enter DateOfBirth" id="dob">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Phone" id="phone">
+    </div>
+    <div class="input_field">
+        <input type="password" placeholder="Enter Your Password" id="password">
+    </div>
+    <div class="btn">
+        <input type="submit">
+    </div>
+  </form>
+</div>
 
 </body>
-
 </html>
